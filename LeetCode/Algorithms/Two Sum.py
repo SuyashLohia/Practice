@@ -8,7 +8,7 @@ class Solution:
                 t= nums.index(i)
                 return [t,nums.index(newt,t+1)]
 
-'''
+"""
 Better Code:
 if len(nums) <= 1:
     return False
@@ -18,4 +18,4 @@ for i in range(len(nums)):
         return [buff_dict[nums[i]], i]
     else:
         buff_dict[target - nums[i]] = i
-'''
+"""
